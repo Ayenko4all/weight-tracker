@@ -1,0 +1,152 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  line-height: 1.7; }
+
+.heading {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.nav {
+  background-color: rgba(10, 0, 89, 0.9);
+  padding: 0 10rem;
+  display: flex;
+  justify-content: space-between; }
+  .nav_brand {
+    text-transform: capitalize;
+    color: white;
+    font-size: 4.5rem;
+    color: #39D442;
+    font-weight: 700; }
+  .nav_list {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    list-style: none; }
+  .nav_item, .nav a {
+    justify-self: auto;
+    text-decoration: none;
+    padding: .8rem;
+    color: white;
+    font-weight: 500; }
+
+.nav_item:hover {
+  background-color: #39D442;
+  border-radius: 2.5rem; }
+
+.hero {
+  position: relative;
+  height: 80vh;
+  background-image: linear-gradient(to top right, rgba(10, 0, 89, 0.6), rgba(10, 0, 89, 0.4)), url(../imagezz/weight7.jpg);
+  background-size: 100%; }
+  .hero_para {
+    color: white;
+    padding-bottom: 6rem; }
+
+.container {
+  padding: 2rem;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-40%, 40%);
+  text-align: center; }
+
+.btn {
+  padding: 1.5rem 2rem;
+  background-color: #39D442;
+  border-radius: 2.5rem;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize; }
+
+.features {
+  padding: 10rem 5rem; }
+  .features_box {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; }
+  .features_one {
+    padding: 2rem;
+    background-color: #E7EAED;
+    border-radius: 1rem;
+    max-width: 30%;
+    box-shadow: 1rem 2rem 1rem rgba(10, 0, 89, 0.4); }
+  .features_icon {
+    background-image: linear-gradient(rgba(10, 0, 89, 0.9), rgba(10, 0, 89, 0.6));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; }
+  .features_heading {
+    margin: .9rem 0;
+    text-transform: capitalize; }
+  .features_para {
+    margin: 2rem;
+    font-size: 2rem; }
+
+.footer {
+  background-color: #252526;
+  padding: 4rem 2.5rem; }
+  .footer_con {
+    text-align: center;
+    padding: 2rem; }
+  .footer i {
+    padding: 1rem; }
+
+.resize {
+  text-align: center;
+  font-size: 4rem; }
+
+.signupForm {
+  padding: 2rem;
+  background-color: rgba(2, 167, 255, 0.7); }
+
+.input {
+  padding: 1.5rem 2rem;
+  width: 30%;
+  border: none;
+  font-family: inherit;
+  background-color: rgba(255, 255, 255, 0.8); }
+  .input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid #39D442; }
+
+.label {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-top: .7rem;
+  font-weight: 500;
+  transition: all .3s;
+  color: white;
+  padding: 1.3rem;
+  background-color: rgba(24, 24, 255, 0.87);
+  transition: all 1s; }
+
+.inputOne {
+  padding: 1rem 0;
+  margin-left: 1rem; }
+
+.subtn {
+  padding: 1rem;
+  border: none;
+  background-color: #39D442;
+  color: white;
+  margin-left: 2rem; }
+
+.book {
+  background-image: linear-gradient(109deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 50%, transparent 50%), url(../imagezz/weight6.png);
+  background-size: 100%;
+  padding: 4rem;
+  border-radius: .5rem; }
